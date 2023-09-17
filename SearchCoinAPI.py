@@ -32,5 +32,4 @@ if crypto_data:
     print(f"Total Volume (USD): {crypto_data['quote']['USD']['volume_24h']:.2f}")
 else:
     print(f"No data found for {crypto_symbol}. Check the symbol and try again.")
-print(crypto_data)
 
